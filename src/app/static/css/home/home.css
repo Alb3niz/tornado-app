@@ -1,0 +1,54 @@
+.background_teal{
+  background-color: #20C9C2;
+}
+.background_orange{
+  background-color: #fd7e14;
+}
+.background_yellow{
+  background-color: #ffc107;
+}
+.background_cyan{
+  background-color: #20c997;
+}
+.background_green{
+  background-color: #28a745;
+}
+.background_red{
+  background-color: #dc3545;
+}
+.linear_grad_background_green{
+  background-color: linear-gradient(to right, #2ecc71 0%,#27aa6b 35%,#2ecc71 64%,#229379 100%);
+}
+
+#showcase {
+  position: relative;
+  background: url("https://cdn-images-1.medium.com/max/2000/1*m2gDBT_nc-iE7R4AM3sHBQ.jpeg");
+  min-height: 600px;
+}
+  #showcase .primary-overlay {
+    background: rgba(66, 134, 244, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#authors img {
+  margin-top: -50px;
+}
+
+#authors .fa {
+  font-size: 25px;
+}
+
+#authors .card:hover {
+  background: #4286f4;
+  color: #fff;
+}
+  #authors .card:hover .fa {
+    color: #fff;
+}
+
+
+
+/* https://cdn-images-1.medium.com/max/2000/1*m2gDBT_nc-iE7R4AM3sHBQ.jpeg */

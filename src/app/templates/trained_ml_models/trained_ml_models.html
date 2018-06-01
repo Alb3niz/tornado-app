@@ -1,6 +1,16 @@
 {% extends "../base/base.html" %}
 
+{% block head %}
+  <link rel="stylesheet" href="{{ static_url("css/particles.css") }}" type="text/css">
+{% end %}
+
 {% block body %}
-  <h1>{{ _("welcome") }}</h1>
-  <h1>trained ml models</h1>
+  <div class="container-fluid transparent_lighter_background py-5">
+    <div class="container">
+      <div class="row">
+        <h1>{{ _("mlmodels.tab.applications") }}</h1>
+      </div>
+      {% include "_user_applications.html" %}
+    </div>
+  </div>
 {% end %}
